@@ -9,7 +9,7 @@ const _dirname = path.resolve();
 
 
 const corsOption = {
-    origin: `${process.env.FRONTEND_URL}`,
+    origin: `https://resto-management-cgbx.onrender.com`,
     credentials: true
 }
 app.use(cors(corsOption))
